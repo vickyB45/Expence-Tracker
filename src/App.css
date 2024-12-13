@@ -1,0 +1,90 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  background-color: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.inc-exp-container {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  padding: 5px 40px;
+}
+
+.inc-exp-container div {
+  padding: 0 30px;
+}
+
+.inc-exp-container div:first-child {
+  border-right: 1px solid rgb(149, 149, 149);
+}
+
+.item {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  margin-top: 15px;
+  position: relative;
+  padding: 10px;
+  border-right: 5px solid green;
+}
+  button{
+  position: absolute;
+  background-color: rgb(185, 47, 9);
+  color: white;
+  left: -21px;
+  padding: 0px 7px;
+  display: none;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: rgb(110, 95, 188);
+  width: 100%;
+  color: white;
+  padding: 6px 0;
+  border-radius: 4px;
+}
+
+.input {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  width: 100%;
+  outline: none;
+  margin: 10px 0;
+  padding: 5px 15px;
+}
+.form-control{
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  outline: none;
+  padding: 5px 15px;
+}
+form button{
+  width: 100%;
+  display:  inline-block;
+  left: 0;
+  position: relative;
+  padding: 8px 0;
+  border-radius: 5px;
+  background-color: rgb(111, 97, 183);
+}
+.minis{
+  border-right: 5px solid rgb(185, 47, 9);
+}
+.display{
+  display: block;
+}
+.hide{
+  display: hide;
+}
